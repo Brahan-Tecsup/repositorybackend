@@ -1,7 +1,7 @@
 require('dotenv').config();
 const http= require('http');
 
-function requestListener(req, res){
+function requestController(req, res){
     console.log('Bienvenido al curso')
 }
 
