@@ -9,6 +9,6 @@ const server=http.createServer(requestController)
 
 const PORT= process.env.PORT
 
-server.listen(PORT, function(){
+server.listen(PORT,'0.0.0.0', function(){
     console.log(`Servidor escuchando en el puerto ${PORT}`)
 })
